@@ -1,0 +1,7 @@
+version: '2.3'
+services:
+  angular:
+    container_name: angular-compose
+    ports:
+      - "80:80"
+    image: 141062605082.dkr.ecr.us-east-1.amazonaws.com/angular-quiz3:latest
